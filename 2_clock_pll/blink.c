@@ -6,6 +6,7 @@
  * LED init
  * 
  */
+unsigned int global_arr[6]= {0xA, 0xB, 0xC, 0xD, 0xE, 0xF};
 void led_init(unsigned int led)
 {
 	SET_BIT(RCC_BASE + RCC_AHB1ENR_OFFSET, GPIO_EN_BIT(GPIO_PORTD));

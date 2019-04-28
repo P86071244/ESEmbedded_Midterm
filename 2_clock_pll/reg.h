@@ -31,6 +31,8 @@
 #define RCC_CR_OFFSET 0x00
 #define PLLRDY_BIT	25
 #define PLLON_BIT	24
+#define HSERDY_BIT 17
+#define HSEON_BIT 16
 #define HSIRDY_BIT  1
 #define HSION_BIT   0
 
